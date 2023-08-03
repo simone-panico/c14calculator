@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/pop-up.css">
+</head>
+<body>
+     <!-- Trigger/Open The Modal -->
+<button id="myBtn">heheh</button>
+
+
+<a id="myBtn" style="color: inherit;" onclick="clickOn()"><i class="fa-solid fa-circle-info fa-2xl"></i></a>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close" onclick="spanClick()">&times;</span>
+      <h2>Erklärung</h2>
+    </div>
+    <div class="modal-body">
+      <span class="close">&times;</span>
+      <br>
+      <math>
+          <mstyle displaystyle="true">
+            <span style="color: blue;"><mtext>&nbsp;- ln</mtext></span><mtext> *&nbsp;</mtext>
+            <mtext style="font-size: 200%; font-weight: 100;">(</mtext>
+            <math>  
+              <mfrac>
+                <mrow>
+                  <mi>V</mi>
+                  <mi class="orange">C</mi>
+                  <mi class="red">T</mi>
+                </mrow>
+                <mrow>
+                  <mi>V</mi>
+                  <mi class="orange">C</mi>
+                  <mi class="green">L</mi>
+                </mrow>
+              </mfrac>
+            </math>  
+            <mtext style="font-size: 200%; font-weight: 50;">)</mtext>
+            <mo>&nbsp;*&nbsp;</mo>
+            <math>
+            <mfrac>
+              <mrow>
+                <mi class="turquoise">t*0.5</mi>
+              </mrow>
+              <mrow>
+                <mi class="blue">ln(2)</mi>
+              </mrow>
+            </mfrac>
+          </math>
+          </mstyle>
+        
+        <br>
+        <br>
+        <br> 
+        <math>
+          <span style="color: blue;"><mtext>&nbsp;ln = Natürlicher Logarithmus</mtext></span>
+        </math>  
+        <br>
+        <br>
+        <math>
+          <mfrac>
+              <mtext>VCT</mtext>
+              <mtext>VCL</mtext>
+          </mfrac>
+          <mtext>&nbsp;=&nbsp;Verhältnis von&nbsp;</mtext><sup>14</sup><mtext>C und&nbsp;</mtext><sup>12</sup><mtext>C</mtext>
+          <br>
+          <br>
+          <mtext><span style="color: orange;">&nbsp;C = Kohlenstoff</span></mtext>
+          <br>
+          <br>
+          <mtext><span style="color: red;">&nbsp;T = Toter Organismus</span></mtext>
+          <br>
+          <br>
+          <mtext><span style="color: green;">&nbsp;L = Lebender Organismus</span></mtext>
+          <br>
+          <br>
+          <mtext><span style="color: #09b0f2;">&nbsp;t*0.5 = Halbwertszeit von <sup>14</sup>C</span></mtext>
+          <br>
+      </math>
+  
+      <div style="position:absolute; top:15%; left: 55%;">
+        <p style="font-style: oblique; font-weight: bold; text-decoration-line: underline;">Rechner Erklärung</p>
+        <p>Der <span style="font-weight: bold;">Berechnen</span>  Button ist dazu da um mit dem eingegebenen Wert die Jahreszahl zu berechnen.</p>
+        <p>Der <span style="font-weight: bold;">Wechsel</span>   Button ist dazu da um von Hochzahlen zu Nichthochzahlen zu wechseln und umgekehrt.</p>
+        <p>Der <span style="font-weight: bold;">Löschen</span> Button ist dazu da um das Resultat und den kompletten Rechner zu leeren.</p>     
+        <p style="font-style: oblique; font-weight: bold; text-decoration-line: underline;">Tipps</p>
+        <p>Lade die Seite neu um den Standartwert 10^-12 wieder zu bekommen.</p>
+        <p>Benutze Tab und Enter um schneller mit dem Taschenrechner zu Rechnen.</p>
+      </div>
+  </div>
+
+</div> 
+<script src="/js/pop-up.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    ></script>
+    <script src="/js/mathjax-config.js" defer></script>
+</body>
+</html>

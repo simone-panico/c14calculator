@@ -1,0 +1,369 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(/images/backgroundheader.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 0px 0px lightblue inset;
+    
+}
+
+.header h1 {
+    font-size: clamp(1px, 7rem);
+    color: black;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-around;
+    align-items: center;
+}
+.titel{
+    width: 90%;
+    color: #fff;
+    position:absolute;
+    top: 50%;
+    text-align: center;
+    transform: translate(5%, -50%);
+}
+
+.titel h1{
+    font-size: 400%;
+}
+
+.titel a{
+    font-size: 200%;
+}
+
+@media(max-width: 700px){
+    .titel h1{
+        font-size: 50px;
+    }
+}
+
+/* Rechner */
+
+aside {
+    display: inline-block;
+    float: right;
+    padding-bottom: 50px;
+}
+
+aside h1 {
+    font-size: 10px;
+}
+
+
+
+.rechner h1 {
+    font-size: 200%;
+    text-align: right;
+    margin-right: 50px;
+    border-left: #7FB961;
+    padding-top: 0px;
+    padding-right: 20px;
+}
+
+.result {
+    font-size: 150%;
+    text-align: middle;
+    margin-right: 50px;
+    padding-top: 0px;
+    padding-right: 20px;
+    height: 10px;
+
+}
+
+#myBtn{
+    margin-right: 90%;
+    margin-left: 0%;
+    padding-bottom: -50px;
+    display: flex;       
+    align-items: center; 
+    padding-left: 40px;
+}
+
+
+.rechnertext {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.rechnertext h1 {
+    font-size: 300%;
+    font-weight: 600px;
+}
+.rechnertext hr {
+    margin-right: 225px;
+    margin-left: 225px;
+    background-color: #7FB961;
+    border-color: #7FB961;
+    border-width: 2.5px;
+    size: 20px;
+}
+.rechner {
+    border: #d4f0c5;
+    text-align:center;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #9DC08B;
+    border-radius: 30px;    
+}
+
+#numbers h1{
+    font-size: 40px;
+    padding-top: 0px;
+    text-align: middle;
+    padding-bottom: 15px;
+}
+
+#numbers hr {
+    border-color: #7FB961;
+    border-width: 2.5px;
+    size: 20px;
+    margin-right: 60px;
+
+}
+
+#numbers p{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#rechnermath {
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-top: 75px;
+    display: flex;       
+    align-items: center; 
+    position: relative;
+
+}
+
+#output{
+    font-size: 40px;
+    padding-left: 15%;
+}
+
+
+
+
+
+/* Rechner Ende */
+
+/* Buttons Start*/
+button {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 200px;
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 15px;
+    margin-bottom: 20px; 
+    margin-top: 70px; 
+    position: relative;
+    background-color: #D6E8CD;
+    border: none;
+    color: #13422E;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 9px #c9c9c9;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 13%;
+    padding: 10px;
+    padding-top: 30px;
+    
+}
+
+.submitbutton {
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+.changebutton {
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+.clearbutton {
+    padding-left: 25%;
+    padding-right: 25%;
+    
+}
+
+
+/* Buttons ende */
+
+/*letzte Zahl*/
+.lastnumber {
+    text-align: right;
+
+}
+
+/* Rechner Ende */
+
+
+.translucentbox{
+    background-color: #517463;
+    opacity: 0.2;
+    margin-top: 25px;
+    margin-bottom: -8px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.middletexttitle{
+    border-left: 10px solid #7FB961;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-left: 15px;
+    opacity: 1;
+    border-radius: 1px;
+    font-size: 200%;
+}
+
+.middletext{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 700px;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+.button{
+    padding: 15px 25px;
+    font-size: 24px;
+    border-radius: 15px;
+    margin-bottom: 35px;
+    margin-left: 40%;  
+    position: relative;
+    background-color: #D6E8CD;
+    border: none;
+    color: #13422E;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 9px #c9c9c9;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+
+
+.middleimg {
+    float: right;
+    margin-right: 100px;
+}
+
+.imgseperator {
+    background-image: url(/images/backgroundmain2.jpg);
+    margin-top: 25px;
+    margin-bottom: -8px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 1500px;
+    background-size: cover;
+}
+
+
+.scndtitle {
+    border-left: 10px solid #7FB961;
+    margin-right: 100px;
+    margin-left: 700px;
+    padding-left: 15px;
+    opacity: 1;
+    border-radius: 1px;
+    font-size: 200%;
+}
+
+.scndimg {
+    float: left;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+#scndmessage {
+    margin-top: 50px;      
+     
+}
+
+.scndtext {
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 100px;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+footer {
+    margin-top: 120px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #303030;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 9px 9px #c9c9c9;
+}
+
+
+
